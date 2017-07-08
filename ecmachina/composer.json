@@ -1,0 +1,33 @@
+{
+    "name": "integrian/ecmachina",
+    "description": "ecMachina - Laravel eCommerce solution",
+    "homepage": "http://ecmachina.org/",
+    "keywords": ["ecommerce", "laravel"],
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/integrian/ecmachina/issues",
+        "source": "https://github.com/integrian/ecmachina"
+    },
+    "authors": [
+        {
+            "name": "Viktor Nemeth",
+            "email": "viktor.nemeth@integrian.hu",
+            "homepage": "http://integrian.hu/"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ecmachina\\": "src/Ecmachina/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1-dev"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
